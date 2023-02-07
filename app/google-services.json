@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "430230240060",
+    "project_id": "jacksneak-ff91b",
+    "storage_bucket": "jacksneak-ff91b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430230240060:android:33609842df788c338c7c39",
+        "android_client_info": {
+          "package_name": "tg.jackboy.jacksneak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430230240060-9g0ttm9tsck3g32a229lkm1bl7900rc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCelB5DofXLGQ43znBnyHgxSW8IKglYgFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430230240060-9g0ttm9tsck3g32a229lkm1bl7900rc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

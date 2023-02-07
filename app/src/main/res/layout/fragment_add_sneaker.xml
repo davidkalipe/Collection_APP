@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/default_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/upload_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_sneaker_page_upload_button"
+            android:background="@color/purple_700"
+            android:textColor="@color/white"
+            android:padding="@dimen/default_margin"
+            style="@style/TitleTextstyle" />
+
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dunk"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/item_sneaker_name_input"
+        android:paddingLeft="@dimen/default_margin"
+        style="@style/DefaultTextStyle"/>
+
+    <EditText
+        android:id="@+id/description_input"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:hint="@string/item_sneaker_description_input"
+        android:paddingLeft="@dimen/default_margin"
+        style="@style/DefaultTextStyle"/>
+
+    <Spinner
+        android:id="@+id/tendance_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:entries="@array/add_sneaker_page_tendance_input"
+        android:paddingLeft="@dimen/default_margin" />
+
+
+    <Spinner
+        android:id="@+id/colories_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="@dimen/item_margin"
+        android:entries="@array/add_sneaker_page_colories_input"
+        android:paddingLeft="@dimen/default_margin" />
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/darkGray"
+        android:layout_marginTop="@dimen/item_margin"
+        android:text="@string/Add_sneaker_page_confirm_button"
+        android:textSize="24dp"
+        android:textColor="@color/white"/>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">JackSneak</string>
+
+    <string name="bottom_home_item">Acceuil</string>
+    <string name="bottom_collection_item">Collection</string>
+    <string name="bottom_add_sneaker_item">Ajouter</string>
+
+
+    <!-- Page d'acceuil -->
+    <string name="Home_page_title">A collectionner</string>
+    <string name="Home_page_last_sneaker_section">Dernières sneakers</string>
+    <string name="Home_page_sneaker_name">Nom du sneaker</string>
+    <string name="Home_page_sneaker_description">description du sneaker</string>
+
+    <!-- Page de collection -->
+    <string name="Collection_page_title">Ma collection</string>
+
+    <!-- Page d'ajout de sneakers-->
+    <string name="add_sneaker_page_title">Ajout d\'une sneaker</string>
+    <string name="add_sneaker_page_upload_button">Charger Image</string>
+    <string name="item_sneaker_name_input">@string/item_sneaker_name</string>
+    <string name="item_sneaker_description_input">@string/item_sneaker_description</string>
+
+    <string-array name="add_sneaker_page_tendance_input">
+        <item>Commercialisation: En quantité</item>
+        <item>Commercialisation: En moyenne</item>
+        <item>Commercialisation: Limitée</item>
+    </string-array>
+
+    <string-array name="add_sneaker_page_colories_input">
+        <item>Existance de colories: En quantité</item>
+        <item>Existance de colories: En moyenne</item>
+        <item>Existance de colories: Limitée/unique</item>
+    </string-array>
+
+    <string name="Add_sneaker_page_confirm_button">Confirmer</string>
+
+    <!--Fenetre Popup de détails-->
+    <string name="popup_sneaker_name">Sneaker Name</string>
+    <string name="popup_sneaker_description_title">Description</string>
+    <string name="popup_sneaker_description_subtitle">Petite description</string>
+    <string name="popup_sneaker_commercialisation_title">Commercialisation</string>
+    <string name="popup_sneaker_commercialisation_subtitle">En quantité</string>
+    <string name="popup_sneaker_colorie_title">Existance de colories</string>
+    <string name="popup_sneaker_colorie_subtitle">Limitée/unique</string>
+
+    <!-- Sneaker customiser -->
+    <string name="item_sneaker_name">Nom du Sneaker</string>
+    <string name="item_sneaker_description">Description du Sneaker</string>
+
+
+
+
+
+
+
+</resources>
